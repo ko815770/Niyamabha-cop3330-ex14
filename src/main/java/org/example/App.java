@@ -10,7 +10,6 @@ public class App {
         String state;
         System.out.println("What is the order amount?");
         Scanner input = new Scanner(System.in);
-        //order = input.nextDouble();
         order = Double.parseDouble(input.nextLine());
         System.out.println("What is the state?");
         state = input.nextLine();
